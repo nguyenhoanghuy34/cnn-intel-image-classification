@@ -55,6 +55,53 @@ Kết quả quan sát:
 Việc sử dụng **VGG16 pretrained on ImageNet** giúp mô hình tận dụng các đặc trưng đã được học từ tập dữ liệu lớn, từ đó cải thiện khả năng phân loại so với việc huấn luyện CNN từ đầu.
 
 ---
+### PCA Projection
+
+<p align="center">
+  <img src="Output/PCA_projection.png" alt="PCA Projection" width="700">
+</p>
+
+Biểu diễn các điểm dữ liệu sau khi giảm chiều bằng **PCA (Principal Component Analysis)**. Kết quả cho thấy một số lớp có sự chồng lấn, thể hiện rằng không gian đặc trưng vẫn chưa phân tách hoàn toàn giữa các nhóm dữ liệu.
+
+---
+
+### Ensemble Accuracy
+
+<p align="center">
+  <img src="Output/acc_within_ensemble.png" alt="Ensemble Accuracy" width="700">
+</p>
+
+Độ chính xác của mô hình khi áp dụng kỹ thuật **Ensemble Learning**, kết hợp nhiều mô hình nhằm cải thiện hiệu suất phân loại.
+
+---
+
+### Confusion Matrix
+
+<p align="center">
+  <img src="Output/confusion_matrix.png" alt="Confusion Matrix" width="650">
+</p>
+
+Ma trận nhầm lẫn thể hiện số lượng dự đoán đúng và sai của từng lớp, giúp đánh giá những cặp lớp mà mô hình thường nhầm lẫn.
+
+---
+
+### Mislabeled Images
+
+<p align="center">
+  <img src="Output/mislabeled_images.png" alt="Mislabeled Images" width="700">
+</p>
+
+Các hình ảnh bị mô hình dự đoán sai hoặc có mức độ nhầm lẫn cao, hỗ trợ quá trình phân tích lỗi và xác định những trường hợp khó phân loại.
+
+---
+
+### Training Accuracy
+
+<p align="center">
+  <img src="Output/train_val_acc.png" alt="Training Accuracy" width="700">
+</p>
+
+Biểu đồ thể hiện độ chính xác của mô hình trên tập huấn luyện và tập xác thực trong quá trình huấn luyện từ đầu, giúp đánh giá khả năng hội tụ và phát hiện hiện tượng overfitting hoặc underfitting.
 
 ## Images
 
