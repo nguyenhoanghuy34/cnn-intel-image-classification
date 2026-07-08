@@ -26,6 +26,19 @@ Bộ dữ liệu bao gồm 6 nhóm cảnh quan:
 
 ---
 
+## Dataset
+
+Dự án sử dụng bộ dữ liệu **Intel Image Classification**, bao gồm các hình ảnh về cảnh quan tự nhiên và đô thị để phục vụ bài toán phân loại ảnh.
+
+### Thông tin bộ dữ liệu
+
+- **Tên bộ dữ liệu:** Intel Image Classification
+- **Số lớp:** 6
+- **Các lớp:** Buildings, Forest, Glacier, Mountain, Sea và Street
+- **Kích thước ảnh:** 150 × 150 pixels (RGB)
+
+Bộ dữ liệu được chia thành **tập huấn luyện (training set)** và **tập kiểm tra (testing set)**, được sử dụng để huấn luyện và đánh giá hiệu suất của các mô hình **CNN** và **VGG16 Transfer Learning**.
+
 ## Results
 
 Các mô hình được đánh giá dựa trên độ chính xác (accuracy) trên tập kiểm tra.
